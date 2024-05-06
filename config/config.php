@@ -1,3 +1,5 @@
+INI REQUEST NOPAL
+
 <?php
 	$host = "localhost";
 	$user = "root";
