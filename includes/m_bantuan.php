@@ -1,12 +1,3 @@
-<<<<<<< digilib-edited
-<div class="row-fluid">
-    <h2 class="title title-large">
-        Bantuan
-    </h2>
-    <hr />
-</div>
-ini bantuan
-=======
 <?php
 	$kodePinjam = date('Ymd')."".$type."".$idUser;
 	$db=new MySQL();
@@ -35,4 +26,3 @@ ini bantuan
 	</div>
 </div>
 <?php } ?>
->>>>>>> main
