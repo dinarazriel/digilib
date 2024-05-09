@@ -1,6 +1,11 @@
 	  <!--NAV 1-->
+	  <style>
+		.kotak{
+			background-color: #fff;
+		}
+	  </style>
 	  <div id="nav">
-		<div class="navbar container-fluid">
+		<div class="navbar container-fluid kotak">
 		  <div class="navbar-inner">
 			<div>
 			  <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">

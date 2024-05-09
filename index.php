@@ -51,7 +51,7 @@
     </head>
     <body>
     
-    <body>
+    <body style="background: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fdeepublishstore.com%2Fblog%2Fkeuntungan-pengadaan-buku-perpustakaan-di-deepublish%2F&psig=AOvVaw3nGdSdc0FQfewy8VyiGiZD&ust=1715260434172000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPDJ3ZyR_oUDFQAAAAAdAAAAABAJ); background-repeat: no-repeat; background-size: cover;">
 		<!--HEADER-->
 		<div>
 			<div id="header">

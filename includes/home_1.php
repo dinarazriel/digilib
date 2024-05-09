@@ -1,6 +1,49 @@
-  <div class="row-fluid nav-left">
+<div class="row-fluid nav-left" >
 	<div class="span3 well scroll">
 	  <div class="sidebar-nav">
+	  <style>
+
+  .nav-left {
+    flex: 1;
+    padding-right: 10px; /* Jarak antara sidebar dan main content */
+	box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1); /* Tambahkan shadow */
+	border-radius: 25px;
+  }
+
+  .main-content {
+    flex: 2;
+    padding-left: 10px; /* Jarak antara main content dan sidebar */
+  }
+
+  .sidebar-nav {
+    background-color: #f8f9fa;
+    padding: 25px;
+  }
+
+  .nav-list {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .nav-list li {
+    padding: 10px 0;
+	transition: background-color #7469B6 0.3s;
+	border-bottom: 1px solid #7469B6; /* Tambahkan garis pemisah */
+  }
+
+  .nav-list .title {
+    font-weight: bold;
+	font-size: 1.2em;
+	margin-bottom: 15px; /* Beri jarak bawah pada judul */
+  }
+
+  .well {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    padding: 20px;
+  }
+</style>
+
 		<ul class="nav nav-list">
 			<li class="nav-header title">Menu</li>
 			<li><a href="?page=daftar_buku">Daftar Buku</a></li>

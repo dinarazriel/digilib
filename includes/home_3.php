@@ -1,5 +1,5 @@
   <div class="row-fluid nav-left">
-	<div class="span3 well scroll">
+	<div class="span3 well scroll" style="background-color: #e6f3ff;">
 	  <div class="sidebar-nav">
 		<ul class="nav nav-list">
 		  <li class="nav-header">Kategori</li>
@@ -17,7 +17,7 @@
 	  </div><!--/.well -->
 	</div><!--/span-->
 	
-	<div class="span9 well" id="main-content">
+	<div class="span9 well" id="main-content" style="background-color: #e6f3ff;">
 	  <div class="row-fluid">
 		<div class="span12">
 		  <?php 

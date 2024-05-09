@@ -9,7 +9,7 @@
 	}
 	$db=new MySQL();
 	$db->connect();
-	$db->execute("SELECT b.kodeBuku, b.judul, p1.nama, p2.nama, b.tahun, b.edisi, b.issn_isbn, 
+	$db->execute("SELECT b.kodeBuku, b.judul, p1.nama, p2.nama, b.tahun, b.image, b.edisi, b.issn_isbn, 
 		b.seri, b.abstraksi, k.namaKategori
 		FROM tb_buku b, tb_penerbit p1, tb_pengarang p2, tb_kategori k
 		WHERE b.kodePenerbit = p1.kodePenerbit
@@ -24,7 +24,7 @@
 	<hr />
 	 <?php for($i=0; $i<count($data); $i++) { ?>
 		<div class="span3 center">
-			<p><img src="<?=$data[$i][10]?>" class="img-polaroid" style="width=200px; height:200px;"></p>
+			<p><img src="<?=$data[$i][5]?>" class="img-polaroid"></p>
 			<p class="title"><?=$data[$i][1]?></p>
 			<p class="title title-small">( <?=$data[$i][3]?> )</p>
 			<p>
@@ -80,7 +80,7 @@
 		<input type="hidden" name="kodePeminjam" id="kodePeminjam" value="<?=$idUser?>">
 		<input type="hidden" name="type" id="type" value="<?=$type?>">
 		<div class="span4">
-			<p><img src="img/no_image.jpg" class="img-polaroid img"></p>
+			<p><img src="<?= $data[$i][12]; ?>" class="img-polaroid img"></p>
 		</div>
 		<div class="span7 title">
 			<table class="table table-condensed">
